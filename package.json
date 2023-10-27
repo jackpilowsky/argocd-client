@@ -1,0 +1,9 @@
+{
+  "name": "argocd-client",
+  "version": "1.0.0",
+  "description": "A lightweight client to connect to argoCD through it's API",
+  "main": "index.ts",
+  "author": "jackpilowsky@gmail.com",
+  "license": "MIT",
+  "private": false
+}
