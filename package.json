@@ -5,5 +5,8 @@
   "main": "index.ts",
   "author": "jackpilowsky@gmail.com",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "dependencies": {
+    "query-string": "^8.1.0"
+  }
 }
