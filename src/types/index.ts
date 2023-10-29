@@ -1,4 +1,4 @@
-import {ApplicationListResp} from './applicationTypes';
+import {ApplicationListResp,ApplicationCreateResp} from './applicationTypes';
 
 export interface ArgoCDApi {
   token: null | string;
@@ -6,6 +6,8 @@ export interface ArgoCDApi {
 
   // application service
   getApplicationList(): Promise<ApplicationListResp>;
+  creteApplication(): Promise<ApplicationCreateResp>;
+
 
   // applicationSet service
   getApplicationSet(name: string):Promise<applicationSetResponse>;
@@ -13,7 +15,7 @@ export interface ArgoCDApi {
 }
 
 export {
-  ApplicationListResp
-
+  ApplicationListResp,
+  ApplicationCreateResp
 }
 
